@@ -1,0 +1,46 @@
+# Java & Gradle
+/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spring Boot 설정 파일
+src/main/resources/application.properties
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# React
+frontend/build/
+frontend/dist/
+
+# 환경 변수 파일
+.env
+frontend/.env
+
+# 기타
+*.swp
